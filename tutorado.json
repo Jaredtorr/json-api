@@ -20,5 +20,16 @@
     "numero": "9661234567",
     "numero_tutor": "9613845789",
     "fecha": "01/08/2025"
+  },
+  {
+    "id": 3,
+    "matricula": 233311,
+    "apellido_paterno": "Perez",
+    "apellido_materno": "Gomez",
+    "nombre": "Maria",
+    "email": "233311@ids.upchiapas.edu.mx",
+    "numero": "9661234567",
+    "numero_tutor": "9613845789",
+    "fecha": "01/08/2025"
   }
 ]
