@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/tutorado.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/modulos.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/contenido.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/tutorado",
+      "dest": "api/tutorado.js"
+    },
+    {
+      "src": "/api/modulos",
+      "dest": "api/modulos.js"
+    },
+    {
+      "src": "/api/contenido",
+      "dest": "api/contenido.js"
+    }
+  ]
+}
