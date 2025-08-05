@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     },
     {
-      "src": "api/modulos.js",
+      "src": "api/docente.js",
       "use": "@vercel/node"
     },
     {
@@ -20,8 +20,8 @@
       "dest": "api/tutorado.js"
     },
     {
-      "src": "/api/modulos",
-      "dest": "api/modulos.js"
+      "src": "/api/docente",
+      "dest": "api/docente.js"
     },
     {
       "src": "/api/contenido",
